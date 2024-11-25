@@ -70,6 +70,26 @@ export default function Project() {
             </a>
           </button>
         </div>
+
+        <div className="bg-black text-white rounded-2xl shadow-md p-5 transition duration-300 hover:-translate-y-2 flex flex-col items-center h-full">
+          <Image
+            src="/calculator.PNG"
+            alt="calculator"
+            width={300}
+            height={250}
+            className="rounded-2xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-110"
+          />
+          <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 transition-colors duration-300 hover:text-blue-500">
+            Simpla Calculator
+          </h3>
+          <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
+            A website powered by Next.js and TypeScript, featuring a simple calculator for performing basic arithmetic operations.          </p>
+          <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
+            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+              View Calculator
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

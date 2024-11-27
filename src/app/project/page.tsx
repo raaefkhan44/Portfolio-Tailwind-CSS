@@ -101,7 +101,7 @@ export default function Project() {
             className="rounded-2xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-110"
           />
           <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 transition-colors duration-300 hover:text-blue-500">
-            Digital Calculator
+            Digital Clock
           </h3>
           <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
           The Digital Clock is a user-friendly component that displays the current time in a clear and visually appealing format. It offers two modes: a 24-hour format for those who prefer military time, and a 12-hour format for a traditional view. The clock updates every second, ensuring real-time accuracy.

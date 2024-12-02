@@ -36,7 +36,7 @@ export default function Project() {
             height={250}
             className="rounded-2xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-110"
           />
-          <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 transition-colors duration-300 hover:text-blue-500">
+          <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 text-center transition-colors duration-300 hover:text-blue-500">
             Static Interactive Resume
           </h3>
           <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
@@ -85,7 +85,7 @@ export default function Project() {
           <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
           The Simple Calculator is an intuitive web application designed for basic arithmetic operations. Users can perform addition, subtraction, multiplication, and division with ease. The interface features two input fields for entering numbers, a display for the result, and clearly labeled buttons for each operation.          </p>
           <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
-            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+            <a href="https://04-simple-calculator.vercel.app/" target="_blank" className="text-white">
               View Calculator
             </a>
           </button>
@@ -107,7 +107,7 @@ export default function Project() {
           The Digital Clock is a user-friendly component that displays the current time in a clear and visually appealing format. It offers two modes: a 24-hour format for those who prefer military time, and a 12-hour format for a traditional view. The clock updates every second, ensuring real-time accuracy.
           </p>
           <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
-            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+            <a href="https://05-digital-clock.vercel.app/" target="_blank" className="text-white">
               View Clock
             </a>
           </button>
@@ -129,7 +129,7 @@ export default function Project() {
           The Number Guessing Game challenges players to guess a randomly generated number between 1 and 10. Players receive feedback on their guesses and can track their attempts until they correctly identify the number.
           </p>
           <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
-            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+            <a href="https://06-number-guessing-game.vercel.app/" target="_blank" className="text-white">
               View Game
             </a>
           </button>
@@ -151,7 +151,7 @@ export default function Project() {
           A birthday wish is a  heartfelt message sent to someone on their special day, expressing good wishes, happiness, and love. It is a way to celebrate their life and make them feel valued and appreciated.
           </p>
           <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
-            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+            <a href="https://08-birthday-wish.vercel.app/" target="_blank" className="text-white">
               View Birthday Wish
             </a>
           </button>

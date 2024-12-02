@@ -135,6 +135,28 @@ export default function Project() {
           </button>
         </div>
 
+         {/*Birthday Wish*/}
+         <div className="bg-black text-white rounded-2xl shadow-md p-5 transition duration-300 hover:-translate-y-2 flex flex-col items-center h-full">
+          <Image
+            src="/birthday_wish.PNG"
+            alt="Birthday Wish"
+            width={300}
+            height={250}
+            className="rounded-2xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-110"
+          />
+          <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 transition-colors duration-300 hover:text-blue-500">
+          Birthday Wish
+          </h3>
+          <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
+          A birthday wish is a  heartfelt message sent to someone on their special day, expressing good wishes, happiness, and love. It is a way to celebrate their life and make them feel valued and appreciated.
+          </p>
+          <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
+            <a href="https://portfolio-tailwind-css-rosy.vercel.app/" target="_blank" className="text-white">
+              View Birthday Wish
+            </a>
+          </button>
+        </div>
+
       </div>
     </div>
   );

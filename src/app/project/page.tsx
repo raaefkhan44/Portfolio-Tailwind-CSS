@@ -157,6 +157,29 @@ export default function Project() {
           </button>
         </div>
 
+         {/*Random Jokes Generator*/}
+         <div className="bg-black text-white rounded-2xl shadow-md p-5 transition duration-300 hover:-translate-y-2 flex flex-col items-center h-full">
+          <Image
+            src="/random jokes.PNG"
+            alt="Random Jokes Generator"
+            width={300}
+            height={250}
+            className="rounded-2xl w-full h-48 object-cover transition-transform duration-300 hover:scale-105 hover:brightness-110"
+          />
+          <h3 className="text-xl font-bold text-[#f0a500] mb-2 mt-4 transition-colors duration-300 hover:text-blue-500">
+         Random Jokes Generator
+          </h3>
+          <p className="text-lg leading-relaxed text-gray-300 mb-5 text-center">
+          Warning: Side effects may include uncontrollable laughter, eye-rolling, and the sudden urge to tell everyone your newfound joke. So, grab your phone, get ready to chuckle, and remember: if you can not laugh at yourself, do not worry this web will do it for you!
+          </p>
+          <button className="bg-[#f0a500] font-bold border-none rounded-md text-white p-2 transition-colors duration-300 hover:bg-blue-500 hover:scale-105">
+            <a href="https://07-random-joke-generator-gamma.vercel.app/" target="_blank" className="text-white">
+              View Jokes Generator
+            </a>
+          </button>
+        </div>
+
+
       </div>
     </div>
   );
